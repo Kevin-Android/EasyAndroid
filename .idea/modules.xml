@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/EasyAndroid.iml" filepath="$PROJECT_DIR$/.idea/modules/EasyAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/EasyAndroid.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/EasyAndroid.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/EasyAndroid.library.iml" filepath="$PROJECT_DIR$/.idea/modules/library/EasyAndroid.library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/httplibrary/EasyAndroid.library.httplibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/library/httplibrary/EasyAndroid.library.httplibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/module/EasyAndroid.module.iml" filepath="$PROJECT_DIR$/.idea/modules/module/EasyAndroid.module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/module/audio_module/EasyAndroid.module.audio_module.iml" filepath="$PROJECT_DIR$/.idea/modules/module/audio_module/EasyAndroid.module.audio_module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/module/audiomobule/EasyAndroid.module.audiomobule.iml" filepath="$PROJECT_DIR$/.idea/modules/module/audiomobule/EasyAndroid.module.audiomobule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/module/permission_module/EasyAndroid.module.permission_module.iml" filepath="$PROJECT_DIR$/.idea/modules/module/permission_module/EasyAndroid.module.permission_module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/module/video_module/EasyAndroid.module.video_module.iml" filepath="$PROJECT_DIR$/.idea/modules/module/video_module/EasyAndroid.module.video_module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/other/EasyAndroid.other.iml" filepath="$PROJECT_DIR$/.idea/modules/other/EasyAndroid.other.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/other/umeng/EasyAndroid.other.umeng.iml" filepath="$PROJECT_DIR$/.idea/modules/other/umeng/EasyAndroid.other.umeng.iml" />
+    </modules>
+  </component>
+</project>
