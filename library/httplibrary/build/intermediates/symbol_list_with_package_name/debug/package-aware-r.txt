@@ -1,2 +1,0 @@
-com.kevin.httplibrary
-xml network_security_config
