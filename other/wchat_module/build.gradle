@@ -12,7 +12,8 @@ android {
         }
     }
 }
+
 dependencies {
-    def exoplayer_version = "2.17.1"
-    api("com.google.android.exoplayer:exoplayer:$exoplayer_version")
+    def wchat_version = "6.8.0"
+    api("com.tencent.mm.opensdk:wechat-sdk-android:$wchat_version")
 }

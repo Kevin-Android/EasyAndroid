@@ -16,7 +16,7 @@ rootProject.name = "EasyAndroid"
 include ':app'
 include ':library:httplibrary'
 include ':module:permission_module'
-include ':module:audiomobule'
 include ':module:video_module'
 include ':module:audio_module'
+include ':other:wchat_module'
 include ':other:umeng'
