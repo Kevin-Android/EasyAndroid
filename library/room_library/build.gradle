@@ -1,0 +1,34 @@
+plugins {
+    id 'com.android.library'
+}
+apply from: '../../project_config/config.gradle'
+android {
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+
+dependencies {
+    def room_version = "2.4.2"
+    api("androidx.room:room-runtime:$room_version")
+    annotationProcessor "androidx.room:room-compiler:$room_version"
+
+    // optional - RxJava2 support for Room
+//        implementation "androidx.room:room-rxjava2:$room_version"
+
+    // optional - RxJava3 support for Room
+    api "androidx.room:room-rxjava3:$room_version"
+
+    // optional - 对 Room 的 Guava 支持，包括 Optional 和 ListenableFuture
+//        implementation "androidx.room:room-guava:$room_version"
+
+    // optional - Test helpers
+//        testImplementation "androidx.room:room-testing:$room_version"
+
+    // optional - 分页 3 集成
+//        implementation "androidx.room:room-paging:2.5.0-alpha02"
+}

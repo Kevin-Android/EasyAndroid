@@ -14,9 +14,11 @@ dependencyResolutionManagement {
 }
 rootProject.name = "EasyAndroid"
 include ':app'
-include ':library:httplibrary'
+include ':library:http_library'
+include ':library:room_library'
 include ':module:permission_module'
 include ':module:video_module'
 include ':module:audio_module'
 include ':other:wchat_module'
 include ':other:umeng'
+include ':library:timber_library'

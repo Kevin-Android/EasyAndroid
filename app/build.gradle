@@ -19,7 +19,9 @@ android {
 }
 
 dependencies {
-    implementation project(':library:httplibrary')
+    implementation project(':library:http_library')
+    implementation project(':library:room_library')
+    implementation project(':library:timber_library')
     implementation project(':module:permission_module')
     implementation project(':module:audio_module')
     implementation project(':module:video_module')
@@ -30,6 +32,10 @@ dependencies {
 dependencies {
     def lottieVersion = "5.2.0"
     def materialVersion = "1.5.0"
+    def rxjava3_version = "3.1.5"
+    def rxjava3_android_version = "3.0.0"
     implementation("com.airbnb.android:lottie:$lottieVersion")
     implementation("com.google.android.material:material:$materialVersion")
+    implementation("io.reactivex.rxjava3:rxjava:$rxjava3_version")
+    implementation("io.reactivex.rxjava3:rxandroid:$rxjava3_android_version")
 }

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 倾斜的 TextView -->
+    <declare-styleable name="SlantedTextView">
+        <attr name="android:text" />
+        <attr name="android:textSize" />
+        <attr name="android:textColor" />
+        <attr name="android:textStyle" />
+        <attr name="android:gravity" />
+        <attr name="android:colorBackground" />
+        <attr name="android:paddingVertical" />
+        <attr name="android:paddingHorizontal" />
+        <!-- 显示成三角形 -->
+        <attr name="triangle" format="boolean" />
+    </declare-styleable>
+
+</resources>

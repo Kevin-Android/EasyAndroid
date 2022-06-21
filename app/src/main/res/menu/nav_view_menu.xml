@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/nav_audio"
+            android:icon="@drawable/mic"
+            android:title="@string/nav_audio" />
+    </group>
+    <group>
+        <item
+            android:id="@+id/nav_image"
+            android:icon="@drawable/camera"
+            android:title="@string/nav_image" />
+    </group>
+    <group>
+        <item
+            android:id="@+id/nav_video"
+            android:icon="@drawable/video"
+            android:title="@string/nav_video" />
+    </group>
+    <group>
+        <item
+            android:id="@+id/nav_set"
+            android:icon="@drawable/settings"
+            android:title="@string/nav_set" />
+    </group>
+
+</menu>
